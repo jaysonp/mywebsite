@@ -4,102 +4,73 @@
     <title id="top">Jayson's New Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.1/less.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="js/index.js"></script>
-    <link rel="stylesheet" href="css/style.css"> 
+    <script src="js/bootstrap.min.js"></script>
     
   </head>
 
   <body class="blog-background">
-    <header class="navbar navbar-default navbar-fixed-top docs-nav" role="banner">
-      <div class="container">
-        <div class="navbar-header">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <a href="./#" class="navbar-brand" alt="Less">
-        <img src="public/img/logo.png">
-      </a>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Jayson Powers</a>
     </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="features/">Home</a>
-        </li>
-        <li>
-          <a href="functions/">More Cool Stuff!</a>
-        </li>
-        <li>
-          <a href="usage/">Even More Cool Stuff!</a>
-        </li>
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="about/">About</a>
-        </li>
-           
-        
+        <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">GitHub <b class="caret"></b></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li> <a href="https://github.com/less/less-docs">Docs Repo</a> </li>
-            <li> <a href="https://github.com/less/less-docs/issues?&amp;state=open">Docs Issues</a> </li>
-            <li class="divider"></li>
-            <li> <a href="https://github.com/less/less.js.git">Less.js Repo</a> </li>
-            <li> <a href="https://github.com/less/less.js/issues">Less.js Issues</a> </li>
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
           </ul>
         </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
       </ul>
-    </nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
   </div>
-</header>
+</nav>
 
 
     
-  <div class="docs-header" id="content">
+  
     <div class="container">
-      <h1 class="blogTitle">Jayson's Epic Blog!</h1>
-      <p>... A Recounting of Awesome and Mighty Things</p>
+        <div class="jumbotron"
+          <h1 class="blogTitle">Jayson's Epic Blog!</h1>
+          <p>... A Recounting of Awesome and Mighty Things</p>
       
-    
-
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Epic Contents! 
-        <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-        <li><a href="#card1">Post 1</a></li>
-        <li><a href="#card2">Post 2</a></li>
-        <li><a href="#card3">Post 3</a></li>
-        <li><a href="#card4">Post 4</a></li>
-        <li><a href="#card5">Post 5</a></li>
-      </ul>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Epic Contents! 
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#card1">Post 1</a></li>
+            <li><a href="#card2">Post 2</a></li>
+            <li><a href="#card3">Post 3</a></li>
+            <li><a href="#card4">Post 4</a></li>
+            <li><a href="#card5">Post 5</a></li>
+          </ul>
+        </div>
+      </div> 
     </div>
-    </div>
-    </div>
-  </div> 
-</div>
 
-
-<!--<div class="banner">
-  <div class="container">
-    This is a cool banner to announce things!
-    <strong>
-      <a href="https://www.lottosurfer.com">Lotto Surfer!</a>
-    </strong>
-  </div>-->
 
 
   </div>
     <div class="content">
-     <div  id="card1"> 
+    <div  id="card1"> 
       <article class="wrapper">
         <header>
         <h1 class="pageTitle">First Post! Introduction</h1>
@@ -150,6 +121,17 @@
       <section>
         <p>Continuing work on my main page, and its going well. I've been playing with bootstrap elements, and tweaking them around some. Also helped implement a modal pop-up contact form on the <a href="https://www.lottosurfer.com">Lotto Surfer</a> website yesterday, and it clooks pretty cool. Went through this page today also to clean out some garbage code. In doing that, and deleting some redundant source references, I got the dropdown menu in the nav bar working properly. Now I just need to swap in my own links. </p>
         <p>I'll be building some database driven pages to link to. I plan to get some practice storing form information, and building log-in and payment portals. Lets See!</p>
+      </section>
+
+    </article>
+
+    <article class="wrapper" id="card5">
+      <header>
+        <h1 class="pageTitle">AWS Webserver running!</h1>
+        <h2 class="pageSubTitle">Posted June 5, 2015</h2>
+      </header>
+      <section>
+        <p>Since last post I've been doing a <strong>LOT</strong> of reading on AWS server set up. Last night I started my free tier, and fired up an Ubuntu Linux EC2 instance. I found a few walkthroughs for installing the LAMP server stack. No two were the same, which was a little unnerving. Nevertheless, I followed the common elements of the few guides I was using, and it seems that I have things set up properly.   </p>
       </section>
 
     </article>
