@@ -9,15 +9,9 @@
 }
 
 .background {
-  background-image: url(../img/transitionbg.jpg);
+  background-image: url(../img/transitionbg.png);
   background-size: cover;
 
-}
-
-.background {
-  background-image: url(../img/transitionbg.jpg);
-  /*background-color: #f0f0f0;
-  */ 
 }
 
 .home-background {
@@ -99,6 +93,7 @@ header {
   margin-bottom: 1em;
 }
 
+
 .para {
   position: fixed width: 100%;
   top: 0;
@@ -106,6 +101,10 @@ header {
   ;
 }
 
+.col-md-3 {
+  color: #fafafa;
+
+}
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -134,8 +133,14 @@ header {
   background-color: #fafafa;
 }
 .footer {
-  bottom: fixed;
   background-color: #f8f8f8;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  
+  
 
 }
 
@@ -229,6 +234,10 @@ h3 {
     width: 100%;
     height: 200px;
   }
+  .container{
+
+  }
+
   .wrapper {
     margin-bottom: 10px;
     margin-left: 10px;

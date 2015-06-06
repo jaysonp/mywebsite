@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title id="top">Jayson's New Page</title>
+    <title >Jayson's New Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +12,7 @@
   </head>
 
   <body class="blog-background">
-    <nav class="navbar navbar-default">
+    <nav id="top" class="navbar navbar-default">
     <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -43,32 +43,32 @@
     </div>
   </div>
 </nav>
-
-
     
+    <div class="content">
       <div id="titlecard">
         <article class="wrapper">
-            <header>
-              <h1 class="pageTitle">Jayson's Epic Blog!</h1>
-              <h2 class="pageSubTitle">... A Recounting of Awesome and Mighty Things</h2>
-            </header>
-            <section>
-              <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Epic Contents! 
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="#card1">Post 1</a></li>
-                  <li><a href="#card2">Post 2</a></li>
-                  <li><a href="#card3">Post 3</a></li>
-                  <li><a href="#card4">Post 4</a></li>
-                  <li><a href="#card5">Post 5</a></li>
-                </ul>
-            </section>    
-          </article>
-        </div>
+          <header>
+            <h1 class="pageTitle">Jayson's Epic Blog</h1>
+            <h2 class="pageSubTitle">... A Recounting of Awesome and Mighty Things</h2>
+          </header>
+          <section>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Epic Contents! 
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#card1">Post 1</a></li>
+                    <li><a href="#card2">Post 2</a></li>
+                    <li><a href="#card3">Post 3</a></li>
+                    <li><a href="#card4">Post 4</a></li>
+                    <li><a href="#card5">Post 5</a></li>
+                  </ul>
+                </div
+          </section>
+        </article>
       </div>
+    
 
-    <div class="content">
+    
       <div  id="card1"> 
         <article class="wrapper">
           <header>
@@ -82,8 +82,15 @@
             <p>No! That's a different story. This one really only started about a month ago, when I actively started coding with HTML and JavaScript. I learned HTML in middle school, but at that time HTML was pretty much the only thing used in web design. Since then so much more has been added! While working in a project management capacity for a software company, I got an up-close look at the way web work is done in the modern age of HTML5, CSS3, and cool JavaScript interactivity.</p>
             <p>I started the Khan Academy Intro to JS course months back out of curiosity, but my work schedule caused it to fall by the wayside. After some developments at that company, I suddenly had some time to sit down and learn! In the Khan HTML course, one of the assignements was to make an HTML blog format. I thought that continuing the  may be a good way to improve my web design skills. I've been experimenting with CSS and JS, and I plan to continue implementing new design updates to this page.</p>
            </section> 
+           <section>
+            <header>
+            </header>
+            <br>
+              <p><a href="#top">Back to top</a></p>
+            
+           </section>
         </article>
-     </div>
+      </div>
 
      <div id="card2">
       <article class="wrapper">
@@ -133,38 +140,32 @@
       <section>
         <p>Since last post I've been doing a <strong>LOT</strong> of reading on AWS server set up. Last night I started my free tier, and fired up an Ubuntu Linux EC2 instance. I found a few walkthroughs for installing the LAMP server stack. No two were the same, which was a little unnerving. Nevertheless, I followed the common elements of the few guides I was using, and it seems that I have things set up properly.   </p>
       </section>
-
     </article>
 
 </div>
 
-<footer class="footer" role="contentinfo">
-  <div class="container">
-  <ul class="bs-social-buttons">
-    <li>
-      <a href="http://www.lottosurfer.com">Lotto Surfer!</a>
-    </li>
-    <li>
-      Put some cool stuff here, and style the footer to match header?
-    </li>
-    <li>
-      Social MEdia Icons Also!
-    </li>
+    <div class="footer" >
+      <ul class="bs-social-buttons">
+        <li>
+          <a href="http://www.lottosurfer.com">Lotto Surfer!</a>
+        </li>
+        <li>
+          Put some cool stuff here, and style the footer to match header?
+        </li>
+        <li>
+          Social MEdia Icons Also!
+        </li>
 
-    <!--<li>
-      <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=less&amp;repo=less.js&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
-    </li>-->
-  </ul>
-</div>
-
-    <p>This Sweet-ass page was designed and is maintained by <a href="">Jayson</a>.</p>
-    <!--<p>Documentation source code released under the <a href="https://github.com/less/less-docs/blob/master/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>-->
+        <!--<li>
+          <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=less&amp;repo=less.js&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
+        </li>-->
+      </ul>
     
-  </div>
-</footer>
 
-
- 
+        <p>This Sweet-ass page was designed and is maintained by <a href="">Jayson</a>.</p>
+        <!--<p>Documentation source code released under the <a href="https://github.com/less/less-docs/blob/master/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>-->
+        
+    </div>
     
   </body>
 </html>
