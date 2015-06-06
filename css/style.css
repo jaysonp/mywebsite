@@ -8,6 +8,26 @@
   
 }
 
+.background {
+  background-image: url(../img/transitionbg.jpg);
+  background-size: cover;
+
+}
+
+.background {
+  background-image: url(../img/transitionbg.jpg);
+  /*background-color: #f0f0f0;
+  */ 
+}
+
+.home-background {
+  background-color: #f8f8f8;
+}
+
+.banner {
+  background-color: #fafafa;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,6 +68,14 @@ header {
   border: #ff7600;
 }
 
+.jumbotron {
+  background-color: #fafafa;
+}
+
+.jumbo-title {
+  color: #230976;
+}
+
 .pageTitle,
 .pageSubTitle {
   font-family: 'Geneva', Tahoma, Verdana, sans-serif;
@@ -78,21 +106,6 @@ header {
   ;
 }
 
-.background {
-  position: fixed; 
-  background-image: url(../img/bg.jpg);
-  background-repeat: repeat;
-  /*background-color: #f0f0f0;
-  */ 
-}
-
-.home-background {
-  background-color: #f8f8f8;
-}
-
-.banner {
-  background-color: #fafafa;
-}
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
