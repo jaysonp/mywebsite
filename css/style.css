@@ -118,7 +118,9 @@ header {
     margin: auto;
 }
 
-
+.item-active {
+  width: 50%;
+}
 
 .docs-header {
   width: auto;
@@ -252,13 +254,6 @@ laptops
   }
   .content {
     width: 70%;
-  }
-  .item {
-    height: 300px;
-  }
-  .item > img {
-    width: 60%;
-
   }
 }
 
